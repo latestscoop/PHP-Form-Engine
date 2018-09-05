@@ -1,0 +1,35 @@
+/*form styles*/
+form#aform{
+	padding:1em;
+	border:1px solid black;
+	border-radius:10px;
+}
+label{
+	display:block;
+	margin:1em 0;
+}
+form label:first-of-type{
+	margin-top:0;
+}
+label.sub{
+	/*for radio and checkbox*/
+	display:inline-block;
+	margin:0 1em 0 0;
+}
+#form_success{
+	display:block;
+	margin:1em 0;
+	color:green;
+}
+#form_errors{
+	display:block;
+	margin:1em 0;
+	color:red;
+}
+#form_errors span{
+	display:block;
+}
+#form_errors span span{
+	display:inline-block;
+	font-weight:bold;
+}
